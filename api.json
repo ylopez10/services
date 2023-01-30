@@ -1,0 +1,33 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "number": "4512*******123654",
+      "name": "Yelsyns Lopez",
+      "exp_date": "12/25",
+      "type": "D",
+      "primary": "false"
+    },
+    {
+      "id": 2,
+      "number": "4527*******120222",
+      "name": "Francisco Mora",
+      "exp_date": "07/26",
+      "type": "C",
+      "primary": "true"
+    }
+  ],
+  "menu": [{
+    "card_list": [],
+    "pays_transfer": [{
+      "between_cards": [],
+      "banks": [],
+      "credit_card": []
+    }],
+    "support": [{
+      "lock": [],
+      "change_pass": []
+    }],
+    "enterprises": []
+  }]
+}

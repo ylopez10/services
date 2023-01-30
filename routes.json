@@ -1,0 +1,3 @@
+{
+  "/cards/name/:email": "/cards?card=:email"
+}

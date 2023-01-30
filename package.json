@@ -1,0 +1,23 @@
+{
+  "name": "services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ylopez10/services.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ylopez10/services/issues"
+  },
+  "homepage": "https://github.com/ylopez10/services#readme",
+  "devDependencies": {
+    "json-server": "^0.17.1"
+  }
+}
