@@ -3,8 +3,9 @@
     {
       "id": 1,
       "number": "4512*******123654",
-      "name": "Yelsyns Lopez",
+      "name": "Carolina Benavidez",
       "exp_date": "12/25",
+      "status": "A",
       "type": "D",
       "primary": "false"
     },
@@ -13,8 +14,67 @@
       "number": "4527*******120222",
       "name": "Francisco Mora",
       "exp_date": "07/26",
+      "status": "A",
       "type": "C",
       "primary": "true"
+    }
+  ],
+  "movements":[
+    {
+      "id": 1,
+      "cardId": 1,
+      "amount": 18500,
+      "date": "2022-07-25",
+      "description": "Pay service amazon Prime",
+      "type": "D"
+    },
+    {
+      "id": 2,
+      "cardId": 1,
+      "amount": 25800,
+      "date": "2022-08-21",
+      "description": "service Macdonald's",
+      "type": "D"
+    },
+    {
+      "id": 3,
+      "cardId": 1,
+      "amount": 57800,
+      "date": "2022-09-05",
+      "description": "Service Uber",
+      "type": "D"
+    },
+    {
+      "id": 4,
+      "cardId": 1,
+      "amount": 150000,
+      "date": "2022-12-24",
+      "description": "Bono Navideño",
+      "type": "C"
+    },
+    {
+      "id": 5,
+      "cardId": 2,
+      "amount": 235000,
+      "date": "2022-06-24",
+      "description": "Recarga digital",
+      "type": "C"
+    },
+    {
+      "id": 6,
+      "cardId": 2,
+      "amount": 25300,
+      "date": "2022-06-24",
+      "description": "Compra establecimiento Jumbo",
+      "type": "D"
+    },
+    {
+      "id": 7,
+      "cardId": 2,
+      "amount": 27500,
+      "date": "2022-06-25",
+      "description": "Compra asadero Doña Pepita",
+      "type": "C"
     }
   ],
   "menu": 
