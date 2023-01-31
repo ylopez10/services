@@ -17,7 +17,7 @@
       "primary": "true"
     }
   ],
-  "menu": [{
+  "menu": {
     "card_list": [],
     "pays_transfer": [{
       "between_cards": [],
@@ -29,5 +29,5 @@
       "change_pass": []
     }],
     "enterprises": []
-  }]
+  }
 }
