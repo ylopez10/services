@@ -24,22 +24,29 @@ router.use((err, req, res, next) => {
 })
 
 router.render = (req, res) => {
-    let code = res.statusCode
-    switch (code) {
-        case 200:
-        case 201:
-            res.jsonp({
-                code: 0,
-                data: res.locals.data
-            })
-            break;
-        default:
-            res.jsonp({
-                code: 1,
-                data: "El dato solicitido no existe"
-            })
-            break;
-    }
+  let code = res.statusCode
+  switch (code) {
+    case 200:
+    case 201:
+      if (res.locals.data.length == 0) {
+        res.jsonp({
+          code: 1,
+          data: "Datos no encontrados"
+        })
+      } else {
+        res.jsonp({
+          code: 0,
+          data: res.locals.data
+        })
+      }
+      break;
+    default:
+      res.jsonp({
+        code: 1,
+        data: "El servcio solicitido no existe"
+      })
+      break;
+  }
 }
 
 // Export the Server API

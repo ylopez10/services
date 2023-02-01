@@ -1,9 +1,54 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "name": "Edinson Cabello",
+      "user": "ecabello",
+      "password": "Novo123"
+    },
+    {
+      "id": 2,
+      "name": "Yelsyns Lopez",
+      "user": "ylopez",
+      "password": "Novo123"
+    },
+    {
+      "id": 3,
+      "name": "Luis Molina",
+      "user": "lmolina",
+      "password": "Novo123"
+    },
+    {
+      "id": 4,
+      "name": "Gensis Rodriguez",
+      "user": "grodriguez",
+      "password": "Novo123"
+    },
+    {
+      "id": 5,
+      "name": "Jennifer Cadiz",
+      "user": "jcadiz",
+      "password": "Novo123"
+    },
+    {
+      "id": 6,
+      "name": "Jonathan Llerena",
+      "user": "jllerena",
+      "password": "Novo123"
+    },
+    {
+      "id": 7,
+      "name": "Hector Corredor",
+      "user": "hcorredor",
+      "password": "Novo123"
+    }
+  ],
   "cards": [
     {
       "id": 1,
+      "userId": 1,
       "number": "4512*******123654",
-      "name": "Carolina Benavidez",
+      "name": "Edinson Cabello",
       "exp_date": "12/25",
       "status": "A",
       "type": "D",
@@ -11,15 +56,26 @@
     },
     {
       "id": 2,
+      "userId": 2,
       "number": "4527*******120222",
-      "name": "Francisco Mora",
+      "name": "Yelsyns Lopez",
       "exp_date": "07/26",
       "status": "A",
-      "type": "C",
+      "type": "D",
       "primary": "true"
+    },
+    {
+      "userId": 2,
+      "number": "4529*******127858",
+      "name": "Yelsyns Lopez",
+      "exp_date": "09/29",
+      "status": "I",
+      "type": "C",
+      "primary": "false",
+      "id": 3
     }
   ],
-  "movements":[
+  "movements": [
     {
       "id": 1,
       "cardId": 1,
@@ -77,25 +133,25 @@
       "type": "C"
     }
   ],
-  "menu": 
-    { "list": [
-        {
-          "card_list": [],
-          "pays_transfer": [
-            {
-              "between_cards": [],
-              "banks": [],
-              "credit_card": []
-            }
-          ],
-          "support": [
-            {
-              "lock": [],
-              "change_pass": []
-            }
-          ],
-          "enterprises": []
-        }
-      ]
-    }
+  "menu": {
+    "list": [
+      {
+        "card_list": [],
+        "pays_transfer": [
+          {
+            "between_cards": [],
+            "banks": [],
+            "credit_card": []
+          }
+        ],
+        "support": [
+          {
+            "lock": [],
+            "change_pass": []
+          }
+        ],
+        "enterprises": []
+      }
+    ]
+  }
 }
