@@ -141,7 +141,12 @@
           {
             "between_cards": [],
             "banks": [],
-            "credit_card": []
+            "credit_card": [
+              {
+                "visa":[],
+                "master_card":[]
+              }
+            ]
           }
         ],
         "support": [
