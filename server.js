@@ -19,7 +19,7 @@ router.use((err, req, res, next) => {
 
   res.status(status).send({
     code: 1,
-    data: 'Error en el registro, el id esta duplicado.'
+    message: 'Error en el registro, el id esta duplicado.'
   })
 })
 
@@ -31,7 +31,7 @@ router.render = (req, res) => {
       if (res.locals.data.length == 0) {
         res.jsonp({
           code: 1,
-          data: "Datos no encontrados"
+          data: []
         })
       } else {
         res.jsonp({
@@ -43,7 +43,7 @@ router.render = (req, res) => {
     default:
       res.jsonp({
         code: 1,
-        data: "El servcio solicitido no existe"
+        message: 'El servicio solicitado no existe'
       })
       break;
   }
