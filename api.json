@@ -3,43 +3,49 @@
     {
       "id": 1,
       "name": "Edinson Cabello",
-      "user": "ecabello",
+      "user": "ecabello@novopayment.com",
       "password": "Novo123"
     },
     {
       "id": 2,
       "name": "Yelsyns Lopez",
-      "user": "ylopez",
+      "user": "ylopez@novopayment.com",
       "password": "Novo123"
     },
     {
       "id": 3,
       "name": "Luis Molina",
-      "user": "lmolina",
+      "user": "lmolina@novopayment.com",
       "password": "Novo123"
     },
     {
       "id": 4,
       "name": "Gensis Rodriguez",
-      "user": "grodriguez",
+      "user": "grodriguez@novopayment.com",
       "password": "Novo123"
     },
     {
       "id": 5,
       "name": "Jennifer Cadiz",
-      "user": "jcadiz",
+      "user": "jcadiz@novopayment.com",
       "password": "Novo123"
     },
     {
       "id": 6,
       "name": "Jonathan Llerena",
-      "user": "jllerena",
+      "user": "jllerena@novopayment.com",
       "password": "Novo123"
     },
     {
       "id": 7,
       "name": "Hector Corredor",
-      "user": "hcorredor",
+      "user": "hcorredor@novopayment.com",
+      "password": "Novo123"
+    },
+    {
+      "id": 8,
+      "name": "Enrique Peñaloza",
+      "user": "epenaloza@novopayment.com",
       "password": "Novo123"
     }
   ],
@@ -47,7 +53,7 @@
     {
       "id": 1,
       "userId": 1,
-      "number": "4512*******123654",
+      "number": "5425548751256954",
       "name": "Edinson Cabello",
       "exp_date": "12/25",
       "status": "A",
@@ -57,7 +63,7 @@
     {
       "id": 2,
       "userId": 2,
-      "number": "4527*******120222",
+      "number": "4512578412540222",
       "name": "Yelsyns Lopez",
       "exp_date": "07/26",
       "status": "A",
@@ -66,7 +72,7 @@
     },
     {
       "userId": 2,
-      "number": "4529*******127858",
+      "number": "5412369545412458",
       "name": "Yelsyns Lopez",
       "exp_date": "09/29",
       "status": "I",
