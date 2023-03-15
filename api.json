@@ -47,6 +47,18 @@
       "name": "Enrique Peñaloza",
       "user": "epenaloza@novopayment.com",
       "password": "Novo123"
+    },
+    {
+      "id": 9,
+      "name": "Giovanny Badillo",
+      "user": "gbadillo@novopayment.com",
+      "password": "Novo123"
+    },
+    {
+      "id": 10,
+      "name": "Edgar Lazaro",
+      "user": "elazaro@novopayment.com",
+      "password": "Novo123"
     }
   ],
   "cards": [
